@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P_1_1_1_01</title>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="../../../../addons/p5.min.js"></script>
+    <script src="../js/P_1_1_1_01.js"></script>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Georgia,"Microsoft YaHei";
+            margin: 0;
+        }
+
+        details {
+            margin-bottom: 1.5em;
+            margin-left: 1em;
+        }
+
+        details summary {
+            font-size: 1.5em;
+        }
+
+        details summary p {
+            font-size: 1.25em;
+        }
+
+    </style>
+</head>
+<body>
+    <details>
+        <summary>Color Spectrum - Grid</summary>
+        <p>Using a simple grid system to build a color spectrum based on the current locations of mouseX and mouseY</p>
+        <pre>
+            @ Key Params:   stepX -> Determine the grid step on x-axis / Determine the width of unit grid. 决定栅格系统在横轴X上的间隔 / 决定单位栅格的宽度
+                            stepY -> Determine the grid step on y-axis / Determine the height of unit grid. 决定栅格系统在纵轴Y上的间隔 / 决定单位栅格的高度
+                            currentGridY -> locate the current starting y location of the grid / Determine the saturation of this grid. 定位当前栅格的起始y坐标 / 决定当前栅格的饱和度
+                            currentGridY -> locate the current starting x location of the grid / Determine the hue of this grid.. 定位当前栅格的起始x坐标 / 决定当前栅格的色相
+
+            @ Interactions: mouseX -> moving cursor from left to right will change the width of unit grid. 鼠标左右移动将改变单位栅格的宽度
+                            mouseY -> moving cursor from top to bottom will change the height of unit grid. 鼠标上下移动将改变单位栅格的高度
+        </pre>
+        <p><a href="../js/P_1_1_1_01.js">Source code</a></p>
+    </details>
+
+</body>
+</html>

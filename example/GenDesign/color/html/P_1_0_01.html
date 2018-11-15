@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P_1_0_01</title>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="../../../../addons/p5.min.js"></script>
+    <script src="../js/P_1_0_01.js"></script>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Georgia,"Microsoft-YaHei";
+            margin: 0;
+        }
+
+        details {
+            margin-bottom: 1.5em;
+            margin-left: 1em;
+        }
+
+        details summary {
+            font-size: 1.5em;
+        }
+
+        details summary p {
+            font-size: 1.25em;
+            margin-left: 1em;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <details>
+        <summary>Color Contrast</summary>
+        <p>We can build a basic color contrast system based on the current locations of mouseX and mouseY.</p>
+        <pre>
+            @ Key Params:   mouseX -> Determine the size of  inner rectangle. 当前光标的X坐标决定小正方形的大小
+                            mouseY -> Determine the filling colors of canvas background and the rectangle. 当前光标的Y坐标决定背景与四边形的填充色
+
+            @ Interactions: Moving cursor from left to right -> Will change the size of the inner rectangle; 鼠标左右移动将改变小正方形大小
+                            Moving cursor from top to bottom -> Will change the filling colors of canvas background and the rectangle. 鼠标上下移动将改变背景与四边形的填充色
+        </pre>
+        <p><a href="../js/P_1_0_01.js">Source code</a></p>
+    </details>
+
+</body>
+</html>

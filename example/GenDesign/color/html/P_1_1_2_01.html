@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P_1_1_1_02</title>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="../../../../addons/p5.min.js"></script>
+    <script src="../js/P_1_1_1_02.js"></script>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Georgia,"Microsoft YaHei";
+            margin: 0;
+        }
+
+        details {
+            margin-bottom: 1.5em;
+            margin-left: 1em;
+        }
+
+        details summary {
+            font-size: 1.5em;
+        }
+
+        details summary p {
+            font-size: 1.25em;
+        }
+
+    </style>
+</head>
+<body>
+<details>
+    <summary>Color Spectrum - Circle</summary>
+    <p>Using a simple circle system to build a color spectrum based on the current locations of mouseX and mouseY</p>
+    <pre>
+        @ Key Params:   segments -> Determine the total segments of the color spectrum. 决定色轮会被分割成多少个三角形
+                        beginShape - endShape -> Use `rotation()` function to build the circle. 运用画布旋转的方法构造色轮
+
+        @ Interactions: Moving cursor from left to right -> Change the radius of the circle. 改变色轮半径
+                        Moving cursor from top to bottom -> Change the number of segments. 改变色轮分割的数量
+    </pre>
+    <p><a href="../js/P_1_1_1_02.js">Source code</a></p>
+</details>
+
+</body>
+</html>
